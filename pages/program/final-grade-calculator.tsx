@@ -9,7 +9,7 @@ import type { NextPage } from "next";
 
 const messages = (score: number): string => {
     if (score > 100) {
-        return 'Impossible. But as Tommy Lasorda said, "The difference between the impossible and the possible lies in a man\'s determination."';
+        return 'Light work 💪';
     } else if (score < 0) {
         return "Uhhh...yeah, go ahead and flunk the final, you should get the grade you want.";
     } else {
